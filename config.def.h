@@ -6,7 +6,7 @@ static const unsigned int gappx     = 6;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=15", "SymbolsNerdFont:weight=bold:size=15","FontAwesome:size=15" };
+static const char *fonts[]          = { "monospace:size=15", "FontAwesome:size=15" };
 static const char dmenufont[]       = "monospace:size=15";
 static const char col_gray1[]       = "#19031d";
 static const char col_gray2[]       = "#5a0926";
@@ -20,7 +20,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "󰈹", "", "", "", "", "󰙯" };
+static const char *tags[] = { "", "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
